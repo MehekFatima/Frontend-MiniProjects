@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sec-1 {
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2023/09/05/1600x900/india-national-anthem-getty_1693806788334_1693900729896.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+   
+}
+
+#sec-2{
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2023-10/08/full/1696783249-9825.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+#sec-3{
+    background-image: url('https://img.etimg.com/thumb/height-450,width-600,imgsize-50832,msid-104331219/india-vs-afghanistan-ind-vs-afg-live-score-cricket-world-cup-2023-rohit-sharmas-masterclass-ton-helps-india-register-emphatic-8-wickets-victory-against-afghanistan.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-4{
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2023-10/14/full/1697289128-4008.jpg?im=FeatureCrop,size=(803,452)');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#sec-5{
+    background-image: url('https://ss-i.thgim.com/public/incoming/bsyema/article67439840.ece/alternates/LANDSCAPE_1200/2023-10-19T160559Z_674009644_UP1EJAJ18GW6J_RTRMADP_3_CRICKET-WORLDCUP-IND-BGD.JPG');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-6{
+    background-image: url('https://images.news9live.com/wp-content/uploads/2023/10/Collage-Maker-22-Oct-2023-10-39-PM-1749.jpg?w=1200&enlarge=true');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-7{
+    background-image: url('https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/lsci/db/PICTURES/CMS/369600/369651.6.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-8{
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2023/11/02/550x309/CRICKET-ICC-MENS-WC-2023-IND-SRI-ODI-237_1698941549146_1698941792403.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-9{
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2023/11/05/550x309/ANI-20231105217-0_1699199946678_1699200381472.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#sec-10{
+    background-image: url('https://c.ndtvimg.com/2023-11/q0hduj5_india-afp_625x300_12_November_23.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+.div-1 {
+    color: white;
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #f0f0f0;;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    color: #f0f0f0;
+    background-color: blue;
+    padding:5px;
+   
+}
+a:hover{
+    background-color: aquamarine;
+    color: #000;
+}
