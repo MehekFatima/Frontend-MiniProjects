@@ -2,7 +2,7 @@
 
 Solar Eclipse is a simple and visually captivating web project that simulates the phases of a solar eclipse. Watch as the sun moves across the sky, creating a stunning eclipse effect.
 
-![Lunar Eclipse](link-to-your-gif) 
+![Lunar Eclipse](https://github.com/MehekFatima/Mini-Projects/blob/main/Solar-Eclipse/Lunar-Eclipse.gif?raw=true) 
 
 
 ## Technologies Used
