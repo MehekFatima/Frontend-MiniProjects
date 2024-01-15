@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container-img{
+    width: 60vw;
+    height: 50rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+@keyframes gallery {
+    0%{
+        background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+    }
+    20%{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/669/489/small/mountain-countryside-landscape-at-sunset-dramatic-sky-over-a-distant-valley-green-fields-and-trees-on-hill-beautiful-natural-landscapes-of-the-carpathians-generative-ai-variation-5-photo.jpeg");
+    }
+    40%{
+        background-image: url("https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=");
+    }
+    60%{
+        background-image: url("https://png.pngtree.com/background/20230512/original/pngtree-nature-background-sunset-wallpaer-with-beautiful-flower-farms-picture-image_2503007.jpg");
+    }
+    80%{
+        background-image: url("https://img.freepik.com/premium-photo/field-flowers-with-sunset-background_931576-16528.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696550400&semt=ais");
+    }
+    100%{
+        background-image: url("https://st2.depositphotos.com/3315095/49993/i/450/depositphotos_499937950-stock-photo-cosmos-flower-grassland.jpg");
+    }
+}
+@media (max-width: 768px) {
+.container-img {
+width: 80vw; 
+height: 30rem; 
+}
+}
+
+@media (max-width: 480px) {
+.container-img {
+width: 90vw; 
+height: 20rem; 
+}
+}
