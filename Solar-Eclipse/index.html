@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar-Eclipse</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #FFF78A;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       .universe{
+        width: 40vw;
+        aspect-ratio: 1;
+        background-color: #FFA732;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: sky 10s linear infinite;
+       }
+       .sun{
+        background-color: #FF6C22;
+        border-radius: 50%;
+        width: 15vw;
+        aspect-ratio: 1;
+        position: relative;
+        overflow: hidden;
+
+        &::after{
+            content: " ";
+            width: inherit;
+            aspect-ratio: 1;
+            background-color: #000;
+            top: 0;
+            left: 0;
+            position: absolute;
+            border-radius: inherit;
+            animation: lunar 10s ease-in-out infinite;
+            
+        }
+       }
+       @keyframes lunar {
+        0%{
+            translate: 100%;
+            scale: 1;
+        }
+        50%{
+            translate: 0%;
+            scale: 0.9;
+        }
+        100%{
+            translate: -100%;
+            scale: 0.9;
+        }
+       }
+
+       @keyframes sky {
+        25%{
+            background-color:  #FFA732;
+        }
+        50%{
+            background-color: #000;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="universe">
+        <div class="sun"></div>
+    </div>
+</body>
+</html>
