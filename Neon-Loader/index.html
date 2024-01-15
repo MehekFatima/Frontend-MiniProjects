@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon loader</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #030637;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        
+        .loader{
+            position: relative;
+            background-color: #F3D7CA;
+            width: 20rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+           animation: load 3s linear infinite reverse;
+            
+        }
+         .loader::before{
+             content: "";
+            position: absolute;
+            top: -2.5rem;
+            left: 8.5rem;
+            width: 5rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #E6A4B4;
+            box-shadow: 0 0 1rem #E6A4B4, 0 0 1.5rem #E6A4B4, 0 0 2rem #E6A4B4, 0 0 2.5rem #E6A4B4, 0 0 3rem #E6A4B4;
+            z-index: 1;
+        }
+        .loader::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 17rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #030637;
+          
+        }
+       
+        @keyframes load {
+            0%{
+                rotate: 0deg;
+            }
+            20%{
+                rotate: 60deg;
+            }
+            40%{
+                rotate: 120deg;
+            }
+            60%{
+                rotate: 180deg;
+            }
+            80%{
+                rotate: 240deg;
+            }
+
+            100%{
+                rotate: 360deg;
+            }
+        }
+        .circle div::after{
+            border: 2px solid #E6A4B4
+            
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="loader"></div>
+            
+    </div>
+</body>
+</html>
