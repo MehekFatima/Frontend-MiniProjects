@@ -6,7 +6,7 @@ This project is a static Netflix landing page designed with HTML and CSS. It fea
 
 ## Demo
 
-![Netflix](link-to-your-gif) 
+![Netflix]([link-to-your-gif](https://github.com/MehekFatima/Mini-Projects/blob/main/Netflix-Landing-Page/chrome-capture-2024-1-17.gif?raw=true)https://github.com/MehekFatima/Mini-Projects/blob/main/Netflix-Landing-Page/chrome-capture-2024-1-17.gif?raw=true) 
 
 ## Technologies Used
 
