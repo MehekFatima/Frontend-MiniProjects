@@ -9,7 +9,7 @@ The profile card is built with a clean and modern design, making it suitable for
 
 ## Demo
 
-![Profile Card Preview](images/profile-card-preview.gif)
+![Profile Card Preview](https://github.com/MehekFatima/Mini-Projects/blob/main/Profile-Card/PC.gif?raw=true)
 
 ## Tech Stack
 - HTML
