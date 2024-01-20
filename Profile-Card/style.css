@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#outside{
+    border: 2px solid transparent;
+    height: 23rem;
+    width: 21rem;
+    margin-top: 10%;
+    border-radius: 10%;
+    box-shadow: 9px -5px 31px 14px rgba(209,201,201,0.49) inset;
+}
+
+.inner{
+    border: 2px solid transparent;
+    width: 20.564rem;
+    height: 8rem;
+    background-image: linear-gradient(to right,#E26EE5,#BB9CC0,#DA0037,#FF9BD2,#D63484,#E6A4B4,#EDEDED);
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic{
+    height: 85px;
+    width: 95px; 
+    background-image: url("https://cdn4.sharechat.com/compressed_gm_40_img_191928_2c490e8a_1691550189220_sc.jpg?tenant=sc&referrer=tag-service&f=220_sc.jpg");
+    background-size: cover;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    border-radius: 50%;
+    margin-top: 102px;
+    border: 2.5px solid #fff;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-top: 44px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 2px #DA0037,-2px -2px 1px #D63484;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h4{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 16px;
+    margin-top: 5px;  
+    border-bottom: 3px solid #f90606;
+    
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;  
+    padding-top: 7px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    height: 25px;
+    width: 30px;
+    margin-top: 17px;
+}
+
+.icons:hover{
+    color: #DA0037;
+    
+}
+
+.icons:visited{
+    color: #1486ea;
+}
+
+.icons:active{
+    color: chartreuse;
+}
