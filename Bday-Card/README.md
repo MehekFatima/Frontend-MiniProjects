@@ -5,7 +5,7 @@ An animated birthday card project to bring joy and celebration to special occasi
 ## Demo
 
 
-![Animated Birthday Card](demo.gif)
+![Animated Birthday Card](https://github.com/MehekFatima/Mini-Projects/blob/main/Bday-Card/chrome-capture-2024-1-22.gif?raw=true)
 
 ## Features
 
