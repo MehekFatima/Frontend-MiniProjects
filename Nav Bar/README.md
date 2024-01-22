@@ -9,7 +9,7 @@ This project demonstrates a responsive navigation bar using HTML, CSS. The navig
 
 ## Demo
 
-![Responsive Navigation Bar](path/to/your/demo.gif)
+![Responsive Navigation Bar](https://github.com/MehekFatima/Mini-Projects/blob/main/Nav%20Bar/chrome-capture-2024-1-22.gif?raw=true)
 
 
 
