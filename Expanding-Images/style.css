@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#E6A4B4,#F3D7CA,#80BCBD,#AAD9BB,#FFB996);
+}
+/* #img1{
+   
+    width: 100px;
+    height: 100px;
+} */
+div.images{
+    border: 2px solid black;
+    height: 60vh;
+    width: 5%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 12px;
+    transition: all .5s;
+    border: transparent;
+}
+
+
+div.images#img-2{
+    background-image: url(https://images.unsplash.com/photo-1618588507085-c79565432917?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww);
+}
+
+div.images#img-3{
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg);
+}
+
+div.images#img-4{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/297/22/531/lake-blue-moonlight-moon-wallpaper-preview.jpg);
+}
+div.images:hover{
+    width: 30%;
+}
+
+/* 
+@media (min-width:1024px){
+
+} */
+
+@media (min-width:761) and (max-width: 1023){
+    div.images{
+      width: 2%;
+
+    }
+    div.images:hover{
+        width: 60%;
+    }
+}
+
+@media (max-width:760px){
+    div.outer{
+        flex-direction: column;
+      
+        
+    }
+    div.images{
+        margin-bottom: 15px;
+        background-size: cover;
+        width: 40%;
+    }
+    div.images:hover{
+        width: 60%;
+    }
+}
