@@ -6,4 +6,4 @@ This project is a simple webpage showcasing social media icons with custom curso
 
 ## Preview
 
-![Demo](url-to-your-gif.gif)
+![Demo](https://github.com/MehekFatima/Frontend-Projects/blob/main/CustomCursors/chrome-capture-2024-1-24.gif?raw=true)
