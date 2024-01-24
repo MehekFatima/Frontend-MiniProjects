@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.container{
+    border: 2px solid #e9e5e9;
+    color: #fff;
+    width: 15%;
+    margin-left: 25px;
+    height: 55px;
+}
+
+div#social-1{
+    margin-top: 25px;
+    padding: 15px;
+   
+    cursor: url('instagram.jpg'),auto;
+}
+
+div#social-2,div#social-3,div#social-4{
+    padding: 15px;
+}
+
+div#social-2{
+
+    cursor:url('twiiter-big.jpg'),auto;
+}
+
+div#social-3{
+    cursor: url('whats.jpg'),auto;
+}
+
+div#social-4{
+    cursor: url('utube.jpg'),auto;
+}
