@@ -1,0 +1,12 @@
+{
+    "name": "Mehek's cric score extension",
+    "version":"1.0.0",
+    "description":"Extension to check live status of the match",
+    "manifest_version":3,
+    "author":"Mehek Fatima",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"mehek's chrome extension"
+    }
+
+}
