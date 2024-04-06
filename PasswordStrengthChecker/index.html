@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    body{
+        background-color: #363434;
+       
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    input{
+        border-radius: 10px;
+        border: none;
+    }
+    input#pass{
+        width: 35%;
+        height: 45px;
+        min-width: 300px;
+        padding: 10px;
+        font-size: 25px;
+        border: none;
+    }
+    ion-icon#eye-open{
+        font-size: 25px;
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    #message{
+        color: #fff;
+        font-size: 15px;
+        margin-top: -274px;
+        margin-left: 449px;
+        display: none;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <input type="password" placeholder="Enter password" id="pass">
+        <ion-icon name="eye-off-outline" id="eye-open"></ion-icon> 
+    </div>
+    <p id="message">Password strength is <span id="strength"></span></p>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>
