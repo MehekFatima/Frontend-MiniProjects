@@ -4,4 +4,4 @@ This project demonstrates how to create a password input field with a toggle but
 
 ## Preview
 
-![Password Toggle Preview](password_toggle.gif)
+![Password Toggle Preview](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/TogglePassword/chrome-capture-2024-4-6.gif?raw=true)
