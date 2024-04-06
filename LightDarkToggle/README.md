@@ -4,4 +4,5 @@ This project demonstrates how to create a dark mode toggle using Ionicons. Click
 
 ## Preview
 
-![Dark Mode Toggle Preview](dark_mode_toggle.gif)
+![Dark Mode Toggle Preview](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/LightDarkToggle/chrome-capture-2024-4-7.gif?raw=true)
+
