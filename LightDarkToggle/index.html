@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .container {
+        display: flex;
+         justify-content: center;
+        align-items: center;
+        /* height: 100vh; /*Added to center vertically */
+        }
+    .content {
+        text-align: center; /* Center-align content */
+        margin: 70px 100px 0px 100px;
+        line-height: 2rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+            
+            
+        }
+
+        ion-icon#sun{
+        font-size: 30px;
+        margin-left: 650px;
+        margin-top:40px;
+        cursor: pointer;
+            
+        }
+    /* Light mode */
+    body {
+        background-color: #fff;
+        color: #111;
+    }
+
+    /* Dark mode */
+    body.dark-mode {
+        background-color: #111;
+        color: #fff;
+    }
+
+</style>
+<body>
+    <ion-icon name="sunny-outline" id="sun"></ion-icon>
+    <div class="container">
+        <div class="content">
+            <!-- dummy text -->
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet atque dolorem tenetur possimus rerum iusto pariatur consequuntur sequi animi ab quod perspiciatis qui culpa, excepturi illum dicta reiciendis itaque expedita aperiam nulla. Commodi, fugiat natus nam eveniet ratione ipsam velit architecto quos adipisci soluta repudiandae minima iure harum minus sapiente quisquam optio non, molestias sit enim odio ea. Fuga excepturi veniam dolores impedit eligendi temporibus ut ipsa omnis? Facere est numquam a esse deserunt vitae laborum vero asperiores porro quasi voluptatibus illum quidem, consequatur deleniti maiores doloribus fuga vel veritatis necessitatibus natus tenetur beatae. Debitis quasi esse repudiandae aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem eius, pariatur nesciunt culpa, corporis natus doloribus expedita laborum nisi quasi possimus? Culpa doloribus placeat nemo minus magni, iusto impedit fugiat sint consectetur eaque omnis! Assumenda unde sit cupiditate eius. Reprehenderit rerum eos fugiat vitae exercitationem eaque consectetur alias optio?</p>
+    </div>
+</div>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>
