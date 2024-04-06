@@ -5,5 +5,6 @@ This project implements a password strength checker that evaluates the strength 
 
 ## Preview
 
-![Password Strength Checker Preview](password_strength_checker.png)
+![Password Strength Checker Preview](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/PasswordStrengthChecker/chrome-capture-2024-4-7.gif?raw=true)
+
 
