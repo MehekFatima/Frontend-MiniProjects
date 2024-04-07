@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:#F9F3DF;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    input#pass{
+        width: 60%;
+        min-width: 330px;
+        height: 50px;
+        background:#ffff;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    p#message{
+        font-size: 20px;
+        margin-top: 10px;
+        display: none;
+        
+    }
+    ion-icon#eye-open{
+        font-size: 25px;
+        margin-left: -30px;
+        background: none;
+        cursor: pointer;
+     
+    } 
+    input#confirm{
+        margin-top: 15px;
+        width: 60%;
+        min-width: 330px;
+        height: 50px;
+        background:#ffff;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    ion-icon#eye-open2{
+        font-size: 25px;
+        margin-left: -30px;
+        background: none;
+        cursor: pointer;
+     
+    } 
+    .button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 30px;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+ 
+</style>
+<body>
+    <div class="container">
+       <div class="input-box">
+            <input type="password" id="pass" placeholder="Enter Password">
+            <ion-icon name="eye-off-outline" id="eye-open"></ion-icon>
+            <input type="password" id="confirm" placeholder="Confirm Password">
+            <ion-icon name="eye-off" id="eye-open2"></ion-icon>
+            <p id="message"></p>
+            <button class="button-56" role="button">Submit</button>
+
+
+
+        </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>
