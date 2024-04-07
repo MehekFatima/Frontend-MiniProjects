@@ -29,10 +29,10 @@ function handleInput() {
     let uppercaseRegex = /[A-Z]/;
     let numbersRegex = /[0-9]/; 
 
-    console.log("Password Length:", pass.value.length);
-    console.log("Contains Digit:", numbersRegex.test(pass.value));
-    console.log("Contains Special Char:", specialCharRegex.test(pass.value));
-    console.log("Contains Uppercase:", uppercaseRegex.test(pass.value));
+    // console.log("Password Length:", pass.value.length);
+    // console.log("Contains Digit:", numbersRegex.test(pass.value));
+    // console.log("Contains Special Char:", specialCharRegex.test(pass.value));
+    // console.log("Contains Uppercase:", uppercaseRegex.test(pass.value));
 
     if (pass.value.length >= 8 && pass.value.length != 0) {
         item1.style.color = '#7AA874';
