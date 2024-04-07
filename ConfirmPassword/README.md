@@ -9,5 +9,5 @@ This project is a simple web form that allows users to enter a password and conf
 - Simple and intuitive user interface.
 
 ## Demo
-![Confirm Password Demo](confirm_password_demo.gif)
+![[Confirm Password Demo](confirm_password_demo.gif)](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/ConfirmPassword/chrome-capture-2024-4-7.gif?raw=true)
 
