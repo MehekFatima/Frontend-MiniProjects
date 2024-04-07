@@ -10,7 +10,8 @@ This project is a password Validation that evaluates the strength of a password 
 
 ## Screenshots
 
-![Password Strength Checker](password_strength_checker.png)
+[![Password Strength Checker](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/PasswordValidation/passwordVal.gif?raw=true)
+
 
 
 
