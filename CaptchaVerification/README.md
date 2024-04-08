@@ -26,6 +26,6 @@ This is a simple web application that generates a captcha when a button is click
 2. Open the `index.html` file in a web browser.
 3. Click on the "Generate Captcha" button to generate a new captcha.
 4. Enter the captcha text into the input field.
-5. Click on the "Verify" button to verify the entered text.
+5. Click on the "Check" button to verify the entered text.
 6. An alert will appear indicating whether the entered text matches the captcha.
 
