@@ -6,7 +6,7 @@ This is a simple web application that generates random passwords with the abilit
 
 ## Preview
 
-![Random Password Generator Preview](random_password_generator.gif)
+![Random Password Generator Preview](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/RandomPasswordGen/RandomPassword.gif?raw=true)
 
 
 ## Features
