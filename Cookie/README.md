@@ -1,6 +1,6 @@
 # Cookie Project 
 
-![Cookie Image](cookie.jpg)
+![Cookie Image](cookie.png)
 
 ## Overview
 
