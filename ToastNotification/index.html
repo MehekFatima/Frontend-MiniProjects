@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7876343ef.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #c0eae0;
+    }
+    .buttons{
+        margin: 50px;
+    }
+    .buttons button{
+        background: #333;
+        color: #ddd;
+        border: 0;
+        outline: 0;
+        width: 120px;
+        height: 40px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    #toastBox{
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        overflow: hidden;
+        padding: 20px;
+    }
+    .toast{
+        width: 400px;
+        height: 80px;
+        background: #fff;
+        font-weight: 500;
+        margin: 15px 0;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        position: relative;
+        transform: translateX(100%);
+        animation: moveLeft 0.5s linear forwards;
+    }
+    @keyframes moveLeft {
+        100%{
+            transform: translateX(0);
+        }
+        
+    }
+
+    .toast i{
+        margin: 0 20px;
+        font-size: 35px;
+        color: green;
+    }
+
+    .error i{
+        color: #ff0000;
+    }
+    .invalid i{
+        color: #ff9603;
+    }
+
+    .toast::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 5px;
+        background: #117111;
+        animation: anim 5s linear forwards;
+    }
+
+    @keyframes anim {
+        100%{
+            width: 0;
+        }
+        
+    }
+
+    .error::after{
+        background: #ff0000;
+    }
+    .invalid::after{
+        background: #ff9603;
+    }
+
+</style>
+<body>
+    <div class="buttons">
+        <button onclick="showToast(sMsg)">Success</button>
+        <button onclick="showToast(EMsg)">Error</button>
+        <button onclick="showToast(iMsg)">Invalid</button>
+    </div>
+    <div id="toastBox"></div>
+</body>
+
+<script src="script.js"></script>
+</html>
