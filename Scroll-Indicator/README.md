@@ -25,6 +25,6 @@ The scroll indicator is a UI element that visually represents the position of th
 3. Customize the styles as needed to match your project's design and requirements.
 
 ## Example
-![Scroll Indicator](scroll_indicator.png)
+![Scroll Indicator](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/Scroll-Indicator/Scroll-Indicator.gif?raw=true)
 
 
