@@ -51,5 +51,6 @@ For more information about the OpenAI API and its pricing plans, visit [OpenAI's
 
 ## Demo
 
-![Demo](demo.webm)
+![Demo](https://raw.githubusercontent.com/MehekFatima/Frontend-MiniProjects/main/ChatBot/demo.webm)
+
 
