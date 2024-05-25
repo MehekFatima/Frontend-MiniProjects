@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #491e00;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.qstn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-bottom: 3px solid coral;
+}
+
+.ans {
+   display: none; /* Initially hidden */
+    margin-top: -5px;
+    letter-spacing: 2px;
+}
+.icon{
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 600px;
+    top: -50px;
+}
