@@ -9,9 +9,9 @@ This is a simple web application for looking up definitions of English words usi
 
 ## Screenshots
 
-![Pic1](path/to/pic1.png "Screenshot 1")
+![Pic1](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/Dictionary/pic1.png)
 
-![Pic2](path/to/pic2.png "Screenshot 2")
+![Pic2](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/Dictionary/pic2.png)
 
 ## Installation
 
