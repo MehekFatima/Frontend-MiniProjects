@@ -23,6 +23,7 @@ function handleSumbit(){
             mng.style.display ="block";
             mng.style.backgroundColor = "bisque";
             mng.style.color = "black";
+            mng.style.fontFamily =  "Inconsolata, monospace";
             mng.textContent = definition;
         } else {
             mng.style.display ="block";
