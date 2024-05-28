@@ -1,8 +1,8 @@
-# Gender Prediction Web App
+# Gender Prediction Using Name Web App
 
 This is a simple web application that predicts the gender of a given name using the [Gender API](https://genderapi.io/).
 
-![Gender Prediction App](pic1.png)
+![Gender Prediction App](https://github.com/MehekFatima/Frontend-MiniProjects/blob/main/NameGenderPrediction/pic1.png?raw=true)
 
 ## Features
 
