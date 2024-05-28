@@ -1,5 +1,3 @@
-// 6655d44fdd437fc79c0e9dd0
-
 const txt = document.getElementById('txt');
 const btn = document.getElementById('btn');
 const gender = document.getElementById('gender');
@@ -18,13 +16,13 @@ function handleClick() {
     if (names.trim() === "") {
         alert("Please enter a name");
     } else {
-        fetch(`https://api.genderapi.io/api/?name=${names}&key=6655d44fdd437fc79c0e9dd0`)
+        fetch(`https://api.genderapi.io/api/?name=${names}&key=<your api key>`)
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
                 if (data.gender) {
                     gender.style.display="block";
-                    gender.textContent = `${names} is ${data.gender} with ${data.probability} certainity.`;
+                    gender.textContent = `${names} is ${data.gender} with ${data.probability} % certainity.`;
                 } else {
                     gender.style.display="block";
                     gender.textContent = `Could not predict gender for ${names}.`;
