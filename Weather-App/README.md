@@ -25,9 +25,6 @@ This is a simple weather application that allows users to get weather informatio
 2. Select whether to display the Air Quality Index (AQI) from the dropdown menu.
 3. Click the "Show" button to retrieve weather information.
 
-## Hosting
-
-This application is hosted on [City View Forecast](https://cityviewforecast.netlify.app/).
 
 ## Technologies Used
 
