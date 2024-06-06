@@ -2,7 +2,7 @@
 
 This is a simple weather application that allows users to get weather information for a specific city. Users can choose to display the Air Quality Index (AQI) along with the weather data.
 
-![Weather App Screenshot](pic-1.png)
+
 
 ## Features
 
