@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:  #BC5A94;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg{
+    background: #DA7297;
+    height: 40%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#inputArea{
+    height: 150px;
+    width: 100%;
+    margin: 10px 0; 
+    border-radius: 5px;
+    outline: 0;
+    resize: none;
+    overflow: auto;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.result{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.result p {
+    margin: 0 10px; 
+}
+
+#remCount{
+    color: #f70505;
+}
+#charCount{
+    color: #132043;
+}
+.exceed {
+    color: red;
+    font-weight: bold; /* Example of additional styles */
+}
